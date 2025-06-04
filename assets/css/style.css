@@ -1,4 +1,23 @@
 #login{
    width: 100px; /*aumenta a largura*/
    height: 50px; /*aumenta a altura*/
-}
+   width: 100px;
+    height: 50px;
+   background-color: rgb(235,84,84);
+    color: #ffffff;
+      border-radius: 20px;
+      border:none;
+  }
+  .menu{
+   display: flex;
+   justify-content: space;
+  }
+  #navbarNav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  #banner{
+   height: 450;
+   width: 450;
+  }
