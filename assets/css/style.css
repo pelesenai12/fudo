@@ -21,3 +21,22 @@
    height: 450;
    width: 450;
   }
+  .texto-banner{
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .caixa-texto{
+    background-color: blue;
+    width: 400px;
+  }
+  .caixA-estrutura{
+    display: flex;
+    flex-direction: row;
+      
+  }
+  .titulo{
+    display: flex;
+    align-items: baseline
+    ;
+  }
+
