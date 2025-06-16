@@ -1,42 +1,101 @@
 #login{
-   width: 100px; /*aumenta a largura*/
-   height: 50px; /*aumenta a altura*/
-   width: 100px;
-    height: 50px;
-   background-color: rgb(235,84,84);
-    color: #ffffff;
-      border-radius: 20px;
-      border:none;
-  }
-  .menu{
-   display: flex;
-   justify-content: space;
-  }
-  #navbarNav{
+  width: 100px; /* aumenta a largura */
+  height: 40px; /* aumenta a altura */
+  background-color: rgb(235, 84, 84);
+  color: #ffffff;
+  border-radius: 20px; /* torna as bordas redondas */
+  border: none ;/* tira as bordas */
+}
+
+
+
+#navbar{
    display: flex;
    justify-content: center;
    align-items: center;
-  }
-  #banner{
-   height: 450;
-   width: 450;
-  }
-  .texto-banner{
-    font-size: 60px;
-    font-weight: bolder;
-  }
-  .caixa-texto{
-    background-color: blue;
-    width: 400px;
-  }
-  .caixA-estrutura{
-    display: flex;
-    flex-direction: row;
-      
-  }
-  .titulo{
-    display: flex;
-    align-items: baseline
-    ;
-  }
+}
 
+#banner{
+   height: 500px;
+   width: 500px;
+}
+
+.texto-banner{
+   font-size: 60px;
+   font-weight: bolder;
+}
+
+.caixa-texto{
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.caixa-estrutura{
+   display: flex;
+   flex-direction: row;
+}
+.titulo{
+   display: flex;
+   align-items: center;
+}
+
+#food{
+   color:rgb(206, 46, 46)
+}
+
+#btn-get{
+   width: 100px; /* aumenta a largura */
+  height: 40px; /* aumenta a altura */
+  background-color: rgb(235, 84, 84);
+  color: #ffffff;
+  border-radius: 20px; /* torna as bordas redondas */
+  border: none ;/* tira as bordas */
+}
+
+.caixatitulo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   width: 400px;
+  
+}
+
+.titulos-secundarios{
+   color:rgb(206, 46, 46);
+   font-weight: 500;
+}
+
+.titulos-primarios{
+   font-weight: bolder;
+   font-size: 40px;
+}
+
+.sub-titulo{
+   font-weight: bolder;
+  
+}
+
+.img-card{
+   width: 250px;
+}
+.caixa-cards{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+}
+.card-element{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.caixa-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
